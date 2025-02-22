@@ -4,9 +4,9 @@ Welcome to my reflection about my week 04 assignment, where I've created an acce
 
 ## what did i achieve ?
 
-I created a super mario themed image gallery containing 5 images which pop forward once hovered over the thumbnail-container, left and right buttons to resemble a nintendo joypad to navigate through images which make a coin collection noise once clicked, and a background audio of a stage taken from a super mario game. 
+I created a super mario themed image gallery containing 5 images which pop forward once hovered over the thumbnail-container (including a toggle on/off button), left and right buttons to resemble a nintendo joypad to navigate through images which make a coin collection noise once clicked, and a background audio of a stage taken from a super mario game. 
 
-I made use of adding aria-labels to the audio control, thumbnail container & left/right buttons, also adding media queries to the thumbnail container and background image to optimise for multiple devices. 
+I made use of adding aria-labels to the audio control,toggle, thumbnail container & left/right buttons, also adding media queries to the thumbnail container and background image to optimise for multiple devices. 
 
 ## What could i improve ?
 

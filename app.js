@@ -94,6 +94,21 @@ document.addEventListener('DOMContentLoaded', () => {
     backgroundMusic.volume = 0.4;
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleButton = document.getElementById('toggle-thumbnail-container');
+  const thumbnailContainer = document.getElementById('thumbnail-container');
+
+  toggleButton.addEventListener('click', () => {
+    if (thumbnailContainer) {
+      if (thumbnailContainer.style.display === 'none') {
+        thumbnailContainer.style.display = 'flex';
+      } else {
+        thumbnailContainer.style.display = 'none';
+      }
+    }
+  });
+});
+
 createThumbnails();
 
 updateBackgroundImage();
